@@ -1,7 +1,7 @@
 {
   "name": "pimatic-shell-execute",
   "description": "Plugin for executing shell commands",
-  "author": "Oliver Schneider <oliverschneider89+sweetpi@gmail.com> (http://sweetpi.de)",
+  "author": "Takanobu Fuse <capitalfuse@gmail.com> (http://ficus.myvnc.com)",
   "license": "GPL-2.0",
   "main": "shell-execute.coffee",
   "files": [
@@ -13,10 +13,10 @@
     "LICENSE"
   ],
   "version": "0.9.0",
-  "homepage": "http://github.com/pimatic/pimatic",
+  "homepage": "http://github.com/capitalfuse/pimatic",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pimatic/pimatic-shell-execute.git"
+    "url": "git://github.com/capitalfuse/pimatic-shell-execute.git"
   },
   "configSchema": "shell-execute-config-schema.coffee",
   "dependencies": {
@@ -26,7 +26,7 @@
     "pimatic": "0.9.*"
   },
   "engines": {
-    "node": ">0.8.x",
-    "npm": ">1.1.x"
+    "node": ">=4.4.x",
+    "npm": ">=2.15.x"
   }
 }
